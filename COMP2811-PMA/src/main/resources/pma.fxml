@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="485.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PMAController">
+   <children>
+      <Button fx:id="ProfileBtn" layoutY="13.0" mnemonicParsing="false" onAction="#profileAct" prefHeight="31.0" prefWidth="150.0" text="Profile" />
+      <Button fx:id="ManEnterBtn" layoutX="150.0" layoutY="13.0" mnemonicParsing="false" onAction="#medRecordAct" prefHeight="31.0" prefWidth="150.0" text="Medical Records" />
+      <Button fx:id="BarcodeEnterBtn" layoutX="300.0" layoutY="13.0" mnemonicParsing="false" onAction="#barcodeRecordAct" prefHeight="31.0" prefWidth="150.0" text="Barcode Record" />
+      <Button fx:id="ResultBtn" layoutX="450.0" layoutY="13.0" mnemonicParsing="false" onAction="#resultAct" prefHeight="31.0" prefWidth="150.0" text="Result" />
+   </children>
+</AnchorPane>

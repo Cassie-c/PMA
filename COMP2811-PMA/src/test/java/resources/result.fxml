@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ResultController">
+   <children>
+      <TableView fx:id="resultTable" layoutY="15.0" prefHeight="361.0" prefWidth="600.0">
+         <columns>
+            <TableColumn fx:id="nameCol" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="barcodeCol" prefWidth="75.0" text="Barcode" />
+            <TableColumn fx:id="strengthCol" prefWidth="75.333251953125" text="Strength" />
+            <TableColumn fx:id="dosageCol" prefWidth="96.666748046875" text="Weekly Dosage" />
+            <TableColumn fx:id="preCol" prefWidth="161.3333740234375" text="Pharmaceutical Company" />
+            <TableColumn fx:id="conflictDrugsCol" prefWidth="103.333251953125" text="Conflict of drugs" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
